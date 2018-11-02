@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task B</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Form validation JavaScript</h1>
+    <div class="wrapper">
+
+        <form class="container" id="form" name="myForm" onsubmit="return validateForm()">
+            <!-- your input elements here -->
+            <div class="input-container half">
+                <i class="fa fa-user icon"></i>
+                <input class="styleinput" type="text" name="firstname" placeholder="First Name" id="firstname">
+
+            </div>
+            <div class="input-container half">
+                <i class="fa fa-user icon"></i>
+                <input class="styleinput " type="text" name="lastname" placeholder="Last Name" id="lastname">
+            </div>
+            <div class="input-container half">
+                <i class="fa fa-envelope icon"></i>
+                <input class="styleinput " type="text" name="email" placeholder="Email" id="email">
+            </div>
+            <div class="input-container half">
+                <i class="fa fa-phone icon"></i>
+                <input class="styleinput " type="text" name="phone" placeholder="Phone Number" id="phone">
+            </div>
+            <div class="input-container half">
+                <i class="fa fa-address-card icon"></i>
+                <input class="styleinput " type="text" name="address" placeholder="Address" id="address">
+            </div>
+            <div class="input-container half">
+                <i class="fa fa-map-marker icon"></i>
+                <input class="styleinput " type="text" name="postalcode" placeholder="Postal Code" id="postalcode">
+            </div>
+            <div class="input-container half">
+                <i class="fa fa-key icon"></i>
+                <input class="styleinput " type="password" name="password" placeholder="Password" id="password">
+            </div>
+            <button class="half btn" id="button">Submit</button>
+
+            <i id="notify"></i>
+        </form>
+
+    </div>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
