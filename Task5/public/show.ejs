@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title><%= pageTitle%></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="modules/leaflet/dist/leaflet.css"/>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Admin</a>
+            <a href="/show">Show media</a>
+        </nav>
+    </header>
+    <h1>Show media page</h1>
+    <div class="container">
+            <nav class="row">
+                <div id="categories">
+        
+                </div>
+                <div>
+                    <button id="reset-button">Reset</button>
+                </div>
+            </nav>
+            <main>
+                <div id="content">
+                    <ul>
+        
+                    </ul>
+                </div>
+            </main>
+        </div>
+        
+        <div class="modal hidden">
+            <button>&times;</button>
+            <h4>Map</h4>
+        
+            <figure>
+                <img src="" alt="">
+                <div id="map" class="small-map"></div>
+            </figure>
+        </div><!-- /.modal -->
+        
+        <script src="modules/moment/moment.js"></script>
+        <script src="modules/leaflet/dist/leaflet.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
